@@ -1,0 +1,34 @@
+.travel {
+    background-image: url(../../../image/travel.png);
+    background-repeat: no-repeat;
+    border-color: aliceblue;
+    margin: 100px 0px 0px 6px;
+    width: 420px;
+    height: 75px;
+}
+
+@media (max-width:1200px) {
+
+    .travel {
+        flex-wrap: wrap !important;
+        margin-left: -117px;
+    }
+}
+
+@media (max-width:992px) {
+    .travel {
+        margin-left: -225px;
+    }
+}
+
+@media (max-width:760px) {
+    .travel {
+        margin-left: -795px;
+    }
+}
+
+@media (max-width:425px) {
+    .travel {
+        margin-left: -500px;
+    }
+}

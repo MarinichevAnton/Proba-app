@@ -1,0 +1,36 @@
+.buttonway {
+    display: flex;
+    justify-content: left;
+    width: 184px;
+    height: 39px;
+    margin: 210px 0px 0px 13px;
+    background-color: transparent;
+    background: 
+    url(../../../image/blik1.png) -14px 16px no-repeat,
+    url(../../../image/blik2.png) 160px -14px no-repeat,
+    url(../../../image/button.png);
+    color: #818286;
+    cursor: pointer;
+}
+
+.buttonway a {
+    padding: 8px 0px 0px 19px;
+}
+
+.buttonway:hover {
+    opacity: 0.8;
+}
+
+@media (max-width:770px) {
+    .buttonway {
+        margin-left: 110px;
+        margin-top: 170px;
+    }
+}
+
+@media (max-width:425px) {
+    .buttonway {
+        margin-left: 55px;
+        margin-top: 190px;
+    }
+}

@@ -1,0 +1,181 @@
+.header {
+width: 100%;
+grid-area: h;
+background-color: transparent;
+height: 100px;
+border: 1px solid #383339;
+border-width: 1px 1px 1px 1px;
+background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+background-color:rgba(0,0,0,0.1);
+grid-area: h;
+background-color: transparent;
+color: antiquewhite;
+height: 100px;
+display: flex;
+justify-content: right;
+align-items: center;
+}
+
+
+.header div {
+  display: flex;
+  padding-left: 40px;
+}
+
+.header a {
+  padding-bottom: 5px;
+}
+
+.header a:hover {
+  cursor: pointer;
+  color: #737173;
+  border: 5px;
+  border: 0px solid #737173;
+  border-width: 0px 0px 1px 0px;
+}
+
+.logotip {
+  background: 
+  url(../../..//image/SpaceX-Logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 36px; 
+  width: 270px;
+  margin: 0px 15px 27px 20px;
+  cursor: pointer;
+}
+
+.borderLogo {
+  display: block;
+  border: 1px solid gray;
+  margin: 0px 90px 0px 90px;
+  padding: 34px 0px 0px 0px;
+  background: 
+  url(../../../image/ugol1.png) 0px 94px no-repeat,
+  url(../../../image/ugol2.png) 0px 1px no-repeat,
+  url(../../../image/ugol3.png) 298px 94px no-repeat,
+  url(../../../image/ugol4.png) 298px 1px no-repeat;
+}
+
+@media (max-width:3000px){
+
+  .header {
+    max-width: 3000px;
+    justify-content: center;
+  }
+
+  .header div {
+    flex-wrap: wrap !important;
+    align-items: center;
+  }
+}
+
+@media (max-width:1200px){
+
+  .header {
+    max-width: 970px;
+    justify-content: center;
+  }
+
+  .header div {
+    flex-wrap: wrap !important;
+    align-items: center;
+  }
+
+  .all_header {
+    display: block;
+  }
+
+  .header div {
+    display: flex;
+    padding-left:0px;
+  }
+
+  .logotip {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .borderLogo {
+    display: flex;
+    margin: 0px 00px 0px 0px;
+  }
+}
+
+@media (max-width:992px){
+
+  .header {
+    max-width: 750px;
+    justify-content: left;
+  }
+
+  .header div {
+    flex-wrap: wrap !important;
+    align-items: left;
+  }
+}
+
+@media (max-width:760px) {
+  .header {
+      height: 130px;
+  }
+
+  .logotip {
+    padding: 30px 0px 0px 0px;
+    margin: 0px 0px 30px 0px;
+  }
+}
+
+@media (max-width:425px){
+
+  .header {
+    max-width: 300px;
+    justify-content: left;
+  }
+
+  .header div {
+    flex-wrap: wrap !important;
+    align-items: center;
+    margin-top:10px;
+  }
+
+  .logotip {
+    background: 
+    url(../../..//image/SpaceX-Logo.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 180px;
+    height: 36px; 
+    width: 160px;
+    margin: 20px 0px 27px 0px;
+  }
+
+  .borderLogo {
+    display: block;
+    border: 1px solid gray;
+    margin: 0px 0px 0px 0px;
+    padding: 50px 0px 40px 0px;
+    background: 
+    url(../../../image/ugol1.png) 0px 94px no-repeat,
+    url(../../../image/ugol2.png) 0px 1px no-repeat,
+    url(../../../image/ugol3.png) 298px 94px no-repeat,
+    url(../../../image/ugol4.png) 298px 1px no-repeat;
+  }
+
+  .header {
+    width: 100%;
+    grid-area: h;
+    background-color: transparent;
+    height: 100px;
+    border: 1px solid transparent;
+    border-width: 1px 1px 1px 1px;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    background-color:rgba(0,0,0,0.1);
+    grid-area: h;
+    background-color: transparent;
+    color: antiquewhite;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    }
+
+}

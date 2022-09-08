@@ -1,0 +1,36 @@
+.way {
+    background-image: url(../../../image/way.png);
+    background-repeat: no-repeat;
+    width: 430px;
+    height: 70px;
+    margin: 230px 0px 0px 0px;
+    padding-right: 300px;
+}
+
+
+@media (max-width:1200px) {
+
+    .way {
+        flex-wrap: wrap !important;
+        margin-left: -117px;
+    }
+}
+
+@media (max-width:992px) {
+    .way {
+        margin-left: -225px;
+    }
+}
+
+@media (max-width:760px) {
+    .way {
+        margin-left: -795px;
+        margin-top: 200px;
+    }
+}
+
+@media (max-width:425px) {
+    .way {
+        margin-left: -853px;
+    }
+}

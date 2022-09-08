@@ -1,0 +1,41 @@
+.footerRight {
+    grid-area: c;
+    background-color: transparent;
+    height: 30px;
+    width: 600px;
+}
+
+.footerRight div {
+    padding-top: 0px;
+    margin-left: 180px;
+ }
+
+ @media (max-width:1200px){
+ 
+    .footerRight div {
+        flex-wrap: wrap !important;
+      margin-left: -100px;
+   }
+  }
+
+
+
+  @media (max-width:992px){
+    .footerRight div {
+        margin-left: -300px;
+  }
+}
+
+@media (max-width:760px) {
+    .footerRight div {
+        margin-left: -620px;
+    }
+}
+  
+  @media (max-width:425px){
+    .footerRight div {
+        margin-left: -685px;
+  }
+}
+
+ 

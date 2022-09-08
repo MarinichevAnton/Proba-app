@@ -1,0 +1,22 @@
+.buttonFooter{
+    justify-content: right;
+    width: 170px;
+    height: 170px;
+    background-color: transparent;
+    background-position: center;
+    border-color: transparent;
+    cursor: pointer;
+   
+}
+
+.buttonFooter:hover {
+    background-color: transparent;
+    background-image: url(../../../image/garntiaHover.png);
+}
+
+.text{
+    padding: 150px 0px 0px 0px;
+    background-image: url(../../../image/garantia.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}

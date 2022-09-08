@@ -1,0 +1,8 @@
+.footerLeft {
+    grid-area: w;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    height: 130px;
+    width: 600px;
+}

@@ -1,0 +1,32 @@
+.buttonNav {
+    justify-content: right;
+    width: 30px;
+    height: 60px;
+    background-color: transparent;
+    border: 1px;
+    list-style: disc;
+    color: white;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+@media (max-width:760px) {
+    .buttonNav {
+        padding-right: -100px;
+    }
+}
+
+@media (max-width:425px) {
+    .buttonNav {
+
+        justify-content: left;
+        width: 3px;
+        height: 6px;
+        background-color: transparent;
+        border: 1px;
+        list-style: disc;
+        color: white;
+        cursor: pointer;
+        margin: 0px 0px 0px 50px;
+    }
+}

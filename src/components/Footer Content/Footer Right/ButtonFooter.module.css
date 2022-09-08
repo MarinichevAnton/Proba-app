@@ -1,0 +1,27 @@
+.buttonFooter{
+    justify-content: right;
+    width: 170px;
+    height: 170px;
+    margin: 20px 10px 0px 65px;
+    background-color: transparent;
+    background-position: center;
+    background-size:210px;
+    border-color: transparent;
+    cursor: pointer;
+   
+}
+
+.buttonFooter:hover {
+    background-color: transparent;
+    background-image: url(../../../image/firstHover.png);
+    background-size: 190px;
+}
+
+.text{
+    max-width: 170px;
+    max-height: 170px;
+    padding: 150px 0px 0px 0px;
+    background-image: url(../../../image/first.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -1,0 +1,36 @@
+.button {
+    justify-content: right;
+    width: 170px;
+    height: 170px;
+    margin: 0px 5px 0px 65px;
+    background-color: transparent;
+    background-position: center;
+    background-size:130px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+
+.button:hover{
+    background-color: transparent;
+    background-image: url(../../../image/2001hover.png);
+    background-size: 190px;
+    cursor: pointer;
+}
+
+.text{
+    max-width: 170px;
+    max-height: 170px;
+    padding: 150px 0px 0px 0px;
+    background-image: url(../../../image/2001g.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (max-width:425px){
+    .button {
+        
+        max-width: 100px;
+        max-height: 100px;
+  }
+}

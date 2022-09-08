@@ -1,0 +1,7 @@
+.middleLeft {
+    grid-area: n;
+    background-color: transparent;
+    margin-top: 40px;
+    height: 230px;
+    width: 600px;
+}
